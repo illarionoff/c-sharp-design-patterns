@@ -22,6 +22,18 @@ namespace DesignPatterns
             var builder = new BuilderPattern();
             builder.Run();
 
+            // Decorator
+            var decorator = new DecoratorPattern();
+            decorator.Run();
+
+            // Facade
+            var facade = new FacadePattern();
+            facade.Run();
+
+            // Mediator
+            var mediator = new Mediator();
+            mediator.Run();
+
             // Wait for user
             Console.ReadKey();
         }
